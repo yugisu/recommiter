@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "start": "ts-node ./src",
+  "scripts": {
+    "start": "ts-node ./src",
+    "compile": "tsc",
+    "inspect": "yarn compile && node inspect dist/src"
+  },
   "dependencies": {
-    "nodegit": "^0.26.5"
+    "date-fns": "^2.13.0",
+    "nodegit": "^0.26.5",
+    "simple-git": "^2.4.0"
   },
   "devDependencies": {
     "@types/nodegit": "^0.26.2",
