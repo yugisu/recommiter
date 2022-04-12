@@ -11,7 +11,7 @@
   "dependencies": {
     "date-fns": "^2.13.0",
     "nodegit": "^0.26.5",
-    "simple-git": "^2.4.0"
+    "simple-git": "^3.5.0"
   },
   "devDependencies": {
     "@types/nodegit": "^0.26.2",
